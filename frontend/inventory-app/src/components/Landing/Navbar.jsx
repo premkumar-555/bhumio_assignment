@@ -10,8 +10,8 @@ import MenuDrawer from "./Drawer";
 
 export default function Navbar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar
+    <Box sx={{ flexGrow: 1, px: '0'}}>
+      <AppBar 
         position="static"
         sx={{
           px: { sm: "0", md: "5rem", lg: "13rem" },
@@ -29,7 +29,7 @@ export default function Navbar() {
           >
             {/* <MenuIcon /> */}
           </IconButton>
-          <Typography color="secondary" variant="h5" component="div" sx={{ flexGrow: 1, fontWeight: '600', fontStyle: 'initial'}}>
+          <Typography color="secondary" variant="h5" component="div" sx={{ flexGrow: 1, fontWeight: '600', fontStyle: 'initial', mx: '0', px: '0'}}>
             Inventory
           </Typography>
 

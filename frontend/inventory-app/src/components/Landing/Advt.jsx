@@ -10,12 +10,13 @@ const Advt = () => {
             display: 'flex',
             flexDirection: {xs: 'column', sm: 'column', md: 'row', lg: 'row', xl: 'row'},
             justifyContent: 'space-between',
-            px: {xs: '2rem', sm: "2rem", md: "5rem", lg: "13rem" },
+            px: {xs: '2rem', sm: "2rem", md: "5rem", lg: "16rem" },
             flex: '1',
             background: "#2a2b30",
             color: 'white',
             alignItems: 'center',
-            py: '5rem'
+            py: '5rem',
+            gap: '1.5rem'
         }}
       >
         <Box sx={{width: {xs: '100%', sm : '100%', md: '50%'}
