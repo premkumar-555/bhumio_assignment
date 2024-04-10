@@ -1,11 +1,11 @@
 import './App.css'
-import Landing from './components/Landing'
+import RoutesContainer from './routes/Routes'
 
 function App() {
 
   return (
     <>
-      <Landing/>
+      <RoutesContainer/>
     </>
   )
 }
