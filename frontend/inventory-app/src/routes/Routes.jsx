@@ -8,7 +8,7 @@ const RoutesContainer = () => {
     <Routes>
         {/* <Route path="/" element={ <Home/> } /> */}
         <Route path="landing" element={ <Landing/> } />
-        <Route path="login" element={ <Login/> } />
+        <Route path="/" element={ <Login/> } />
       </Routes>
   )
 }
